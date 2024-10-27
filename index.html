@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emoji Project</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading_div">
+        <h1>Emojee - Emoji 🔍 Application</h1>
+      </div>
+      <hr />
+      <div class="search_div">
+        <form action="" style="margin: auto">
+          <input
+            type="text"
+            id="search_field"
+            placeholder="Search emotion..."
+          />
+        </form>
+      </div>
+      <div class="btn_container">
+        <button class="btn">Smileys & Emotion</button>
+        <button class="btn">People & Body</button>
+        <button class="btn">Animals & Nature</button>
+        <button class="btn">Food & Drink</button>
+        <button class="btn">Travel & Places</button>
+        <button class="btn">Activities</button>
+        <button class="btn">Objects</button>
+        <button class="btn">Symbols</button>
+        <button class="btn">Flags</button>
+      </div>
+      <br />
+      <div class="table_div">
+        <div class="inner_table_div">
+          <table>
+            <!-- all emojee rows will be here only -->
+            <tbody id="emoji_container"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="./emoji.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
